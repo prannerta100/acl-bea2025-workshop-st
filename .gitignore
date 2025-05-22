@@ -1,0 +1,3 @@
+# Ignoring these temporary folders to avoid bloating up the repo
+**/data/
+**/results/

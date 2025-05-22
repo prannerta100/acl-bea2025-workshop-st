@@ -1,0 +1,25 @@
+[project]
+name = "task5"
+version = "0.1.0"
+description = "virtual env for running task5 models"
+authors = [
+    {name = "Your Name",email = "you@example.com"}
+]
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "pandas (>=2.2.3,<3.0.0)",
+    "datasets (>=3.5.0,<4.0.0)",
+    "scikit-learn (>=1.6.1,<2.0.0)",
+    "evaluate (>=0.4.3,<0.5.0)",
+    "torch (>=2.6.0,<3.0.0)",
+    "transformers (>=4.51.2,<5.0.0)",
+    "accelerate (>=1.6.0,<2.0.0)",
+    "torchvision (>=0.21.0,<0.22.0)",
+    "torchaudio (>=2.6.0,<3.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
