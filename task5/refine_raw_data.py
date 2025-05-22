@@ -16,6 +16,7 @@ for col in df.columns:
     match = re.match(r"^tutor_responses\.([^.]+)\.response$", col)
     if match:
         label_columns[col] = match.group(1)
+        print(match.group(1))
 
 def create_finetuning_dataset():
     labeled_dataset = []
